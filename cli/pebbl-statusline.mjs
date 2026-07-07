@@ -9,7 +9,7 @@ import { homedir } from "node:os";
 import { join } from "node:path";
 import { randomUUID } from "node:crypto";
 
-const API = process.env.PEBBL_API || "https://ads.pebbl.space";
+const API = process.env.PEBBL_API || "https://pebbl.space";
 const DIR = join(homedir(), ".pebbl");
 const CACHE = join(DIR, "ad.json");
 const ACCOUNT = join(DIR, "account"); // holds the login token, if any

@@ -1,6 +1,6 @@
 # pebbl-open
 
-**The receipts behind [Pebbl](https://ads.pebbl.space).**
+**The receipts behind [Pebbl](https://pebbl.space).**
 
 Pebbl shows one tasteful sponsored line in the "thinking" wait-state of AI coding tools,
 and pays the developer 50% of the ad revenue. We make some specific promises — *never reads
@@ -55,7 +55,7 @@ network capture cannot.
 ## What's here
 
 - `cli/` — the actual terminal integration that runs on your machine (statusline + installer).
-  These are already publicly downloadable from `ads.pebbl.space`; they're here for inspection and history.
+  These are already publicly downloadable from `pebbl.space`; they're here for inspection and history.
 - `server/` — the data-handling logic behind the claims: the earnings split, the impression
   endpoint (what's stored), the lazy DB client, and the ad-token format. No infrastructure, no secrets.
 
@@ -71,9 +71,9 @@ We're being straight about this rather than pretending to be fully open-source:
 
 ## Links
 
-- Live: **https://ads.pebbl.space**
-- How it works: https://ads.pebbl.space/transparency
-- Privacy: https://ads.pebbl.space/privacy · Terms: https://ads.pebbl.space/terms
+- Live: **https://pebbl.space**
+- How it works: https://pebbl.space/transparency
+- Privacy: https://pebbl.space/privacy · Terms: https://pebbl.space/terms
 
 Questions or something that doesn't add up? Open an issue, or email **hello@pebbl.space**.
 

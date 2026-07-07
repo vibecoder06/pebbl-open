@@ -1,12 +1,12 @@
 #!/bin/sh
 # Pebbl installer — get paid while you code.
-#   curl -fsSL https://ads.pebbl.space/install.sh | sh              # Claude CLI (recommended)
-#   curl -fsSL https://ads.pebbl.space/install.sh | sh -s -- vscode # Claude/Codex in VS Code
-#   curl -fsSL https://ads.pebbl.space/install.sh | sh -s -- cursor # Cursor
+#   curl -fsSL https://pebbl.space/install.sh | sh              # Claude CLI (recommended)
+#   curl -fsSL https://pebbl.space/install.sh | sh -s -- vscode # Claude/Codex in VS Code
+#   curl -fsSL https://pebbl.space/install.sh | sh -s -- cursor # Cursor
 # Reversible. The CLI path uses only documented Claude config (no patching).
 set -e
 
-API="${PEBBL_API:-https://ads.pebbl.space}"
+API="${PEBBL_API:-https://pebbl.space}"
 SURFACE="${1:-cli}"
 DIR="$HOME/.pebbl"
 mkdir -p "$DIR"
